@@ -2,7 +2,7 @@
   "name": "resume-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/joshlarue/react-portfolio",
+  "homepage": "https://joshlarue.github.io/react-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
