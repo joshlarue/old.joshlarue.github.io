@@ -1,11 +1,12 @@
 :root {
   --base: #141E46;
   --text: #FFF5E0;
-  --accent: hsl(0, 82%, 66%);
+  --accent: #ef6161;
   --accent-transp: hsla(0, 82%, 66%, 0.234);
   --primary: hsl(189, 37%, 43%);
   --primary-transp: hsla(189, 37%, 43%, 0.353);
   --h1: 5rem;
+  --p: 2rem;
   font-size: 62.5%;
   background-color: #fee6de;
 }
@@ -19,6 +20,10 @@ h1 {
   font-size: var(--h1);
   text-align: center;
   height: 100px;
+}
+
+.icon-desc {
+  font-size: var(--p);
 }
 
 .app-inner {
@@ -54,8 +59,7 @@ h1 {
 }
 
 .icon-img img {
-  max-width: 7rem;
-  max-height: 7rem;
+  width: clamp(7rem, 5.736vw + 5.164rem, 13rem);
 }
 
 .right-side {
