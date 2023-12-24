@@ -22,7 +22,7 @@ function App() {
         <div className="right-side">
           <h1>Check out my {currentHover}!</h1>
           <div className="image-wrapper">
-            <img src='src/assets/headshot.png' />
+            <img src='/react-portfolio/headshot.png' />
           </div>
         </div>
       </div>
