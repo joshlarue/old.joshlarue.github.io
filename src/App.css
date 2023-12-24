@@ -3,9 +3,15 @@
   --text: #FFF5E0;
   --accent: hsl(0, 82%, 66%);
   --accent-transp: hsla(0, 82%, 66%, 0.234);
-  --primary: #468B97;
+  --primary: hsl(189, 37%, 43%);
+  --primary-transp: hsla(189, 37%, 43%, 0.353);
   --h1: 5rem;
   background-color: #fee6de;
+}
+
+::selection {
+  color: var(--base);
+  background-color: var(--accent);
 }
 
 h1 {
@@ -35,13 +41,14 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 0.5em;
+  border: 1px solid var(--primary-transp);
 }
 
 .icon:hover {
-  box-shadow: 0px 0px 25px 10px var(--accent-transp);
+  box-shadow: 0px 0px 10px 3px var(--primary);
   background: radial-gradient(circle 100px, var(--primary), var(--base));
   cursor: pointer;
+  border-radius: 0.2em;
 }
 
 .icon-img img {
@@ -70,6 +77,11 @@ h1 {
   margin-top: -20rem;
   animation: upDown 1.7s alternate infinite ease-in-out;
 }
+
+.image-wrapper img:hover {
+  cursor: pointer;
+}
+
 @keyframes upDown {
   to {transform: translatey(25px);}
 }
