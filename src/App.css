@@ -5,7 +5,7 @@
   --accent-transp: hsla(0, 82%, 66%, 0.234);
   --primary: hsl(189, 37%, 43%);
   --primary-transp: hsla(189, 37%, 43%, 0.353);
-  --h1: 5rem;
+  --h1: clamp(4rem, 0.956vw + 3.694rem, 5rem);
   --p: 2rem;
   font-size: 62.5%;
   background-color: #fee6de;
@@ -20,6 +20,10 @@ h1 {
   font-size: var(--h1);
   text-align: center;
   height: 100px;
+}
+
+#hero {
+  width: 35vw;
 }
 
 .icon-desc {
@@ -130,11 +134,14 @@ h1 {
   .icon-grid {
     width: 100%;
   }
+  #hero {
+    width: 90vw;
+  }
   .images-wrapper {
     height: 7rem;
   }
   #coin-img {
-    margin-top: -6vh;
+    margin-top: -10vh;
   }
   #headshot-img {
     margin-left: 75vw;
