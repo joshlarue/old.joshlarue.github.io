@@ -38,7 +38,7 @@ h1 {
 
 .icon-grid {
   display: grid;
-  width: 60%;
+  width: 60vw;
   height: 100%;
   grid-template-columns: 1fr 1fr;
 }
@@ -67,29 +67,56 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  width: 40%;
+  width: 40vw;
 }
 
-.image-wrapper {
-  height: 200%;
+.images-wrapper {
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.image-wrapper img {
-  width: clamp(7rem, 12.428vw + 3.023rem, 20rem);
-  margin-top: -10rem;
+#coin-img {
+  width: clamp(4rem, 8.604vw + 1.247rem, 13rem);
   animation: upDown 1.7s alternate infinite ease-in-out;
+  position: absolute;
+  margin-top: -25vh;
 }
-
-.image-wrapper img:hover {
-  cursor: pointer;
-}
-
 @keyframes upDown {
   to {transform: translatey(25px);}
+}
+
+#coin-img:hover {
+  animation: spin 0.3s infinite;
+}
+
+@keyframes spin {
+  0% {
+    width: clamp(4rem, 8.604vw + 1.247rem, 13rem);
+    height: clamp(4rem, 8.604vw + 1.247rem, 13rem);
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    width: clamp(4rem, 8.604vw + 1.247rem, 13rem);
+    height: clamp(4rem, 8.604vw + 1.247rem, 13rem);
+  }
+}
+
+
+#headshot-img {
+  width: clamp(7rem, 12.428vw + 3.023rem, 20rem);
+  align-self: flex-end;
+  justify-self: right;
+  position: absolute;
+  margin-left: 20vw;
+}
+
+.images-wrapper img:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -103,12 +130,14 @@ h1 {
   .icon-grid {
     width: 100%;
   }
-  .image-wrapper {
+  .images-wrapper {
     height: 7rem;
   }
-  .image-wrapper img {
-    padding-top: 5rem;
-    padding-bottom: 0rem;
+  #coin-img {
+    margin-top: -6vh;
+  }
+  #headshot-img {
+    margin-left: 75vw;
   }
   @keyframes upDown {
     to {transform: translatey(10px);}
