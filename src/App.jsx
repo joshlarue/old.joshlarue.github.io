@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import GridIcon from './components/GridIcon'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function App() {
   const [currentHover, setHover] = useState("website");
@@ -11,7 +10,6 @@ function App() {
   }
 
   return (
-    <Router>
       <div className="app-inner">
         <div className="icon-grid">
           <GridIcon img='/react-portfolio/resume.png' desc='resume' handleHover={handleHover} /> 
@@ -29,7 +27,6 @@ function App() {
           </div>
         </div>
       </div>
-    </Router>
   )
 }
 
