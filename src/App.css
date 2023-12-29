@@ -106,7 +106,7 @@ a:hover {
 }
 
 #home-hero {
-  width: 75vw;
+  max-width: 75vw;
   padding: 3vw;
   font-weight: 600;
 }
