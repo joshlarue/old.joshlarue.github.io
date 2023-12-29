@@ -8,8 +8,10 @@ function Resume() {
           <h1>Josh LaRue</h1>        
           <img src="headshot.png" alt="my likeness" width='100px' />
         </div>
-        <a href="https://linkedin.com/in/joshua-larue-swd" target='_blank'>My LinkedIn Profile</a>
-        <p>joshua.larue@edu.sait.ca * (780) 827-5784 * Calgary, AB</p>
+        <div className="resume-contact">
+          <a href="https://linkedin.com/in/joshua-larue-swd" target='_blank'>My LinkedIn Profile</a>
+          <p>joshua.larue@edu.sait.ca * (780) 827-5784 * Calgary, AB</p>
+        </div>
       </header>
       <main>
         <section>
