@@ -4,6 +4,7 @@ import Home from './components/Home';
 import WideIcons from './components/WideIcons';
 import ThinIcons from './components/ThinIcons';
 import Resume from './components/Resume';
+import Blog from './components/Blog';
 import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/react-portfolio/' element={<> <WideIcons handleHover={handleHover} /> <Home currentHover={currentHover}/></>} />
           <Route path='/react-portfolio/resume/' element={<> <ThinIcons handleHover={handleHover} /> <Resume /> </>} />
+          <Route path='/react-portfolio/blog/' element={<> <ThinIcons handleHover={handleHover} /> <Blog /> </>} />
         </Routes>
       </div>
     </>
