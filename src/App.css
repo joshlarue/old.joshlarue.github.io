@@ -122,7 +122,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .icon-desc {
@@ -225,8 +225,8 @@ a:hover {
   to {transform: translatey(25px);}
 }
 
-#coin-img:hover {
-  animation: spin 0.3s;
+#coin-img:active {
+  animation: spin 0.3s 5 ease-in-out;
 }
 
 @keyframes spin {
@@ -235,7 +235,7 @@ a:hover {
     height: clamp(4rem, 8.604vw + 1.247rem, 13rem);
   }
   50% {
-    width: 0%;
+    width: 1%;
   }
   100% {
     width: clamp(4rem, 8.604vw + 1.247rem, 13rem);

@@ -8,7 +8,7 @@ function Resume() {
           <h1>Josh LaRue</h1>        
           <img src="headshot.png" alt="my likeness" width='100px' />
         </div>
-        <a href="https://linkedin.com/profiles/joshlarue">My LinkedIn Profile</a>
+        <a href="https://linkedin.com/in/joshua-larue-swd" target='_blank'>My LinkedIn Profile</a>
         <p>joshua.larue@edu.sait.ca * (780) 827-5784 * Calgary, AB</p>
       </header>
       <main>
@@ -20,7 +20,7 @@ function Resume() {
           <ul>
               <li>Several web projects utilizing HTML, CSS, and vanilla JavaScript</li>
           </ul>
-          <a href="https://joshlarue.github.io">Link to my site of personal projects</a>
+          <a href="https://joshlarue.github.io" target='_blank'>Link to my site of personal projects</a>
           <h2>Hobbies</h2>
           <ul>
               <li>Music production</li>
