@@ -105,8 +105,8 @@ a:hover {
   text-decoration: underline;
 }
 
-#hero {
-  width: 35vw;
+#home-hero {
+  width: 75vw;
   padding: 3vw;
   font-weight: 600;
 }
@@ -187,7 +187,7 @@ a:hover {
 }
 
 .icon-img img {
-  height: clamp(2rem, 10.516vw + -1.365rem, 13rem);
+  height: clamp(7rem, 5.736vw + 5.164rem, 13rem);
 }
 
 .icons-thin img {
@@ -280,7 +280,7 @@ a:hover {
     height: 7rem;
   }
   #coin-img {
-    margin-top: -10vh;
+    margin-top: -7vh;
   }
   #headshot-img {
     margin-left: 75vw;
