@@ -3,7 +3,7 @@
   --text: #FFF5E0;
   --accent: #ef6161;
   --accent-transp: hsla(0, 82%, 66%, 0.234);
-  --primary: hsl(189, 37%, 43%);
+  --primary: #458a96;
   --primary-transp: hsla(189, 37%, 43%, 0.353);
   --h1: clamp(4rem, 0.956vw + 3.694rem, 5rem);
   --p: 2rem;
