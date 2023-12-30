@@ -14,26 +14,31 @@ function Resume() {
         </div>
       </header>
       <main>
-        <section>
+        <section className='resume-section'>
           <h2>Education</h2>
-          <p>Sept. 2023 - Present</p>
-          <h4>SAIT: Studying in the Software Development program at the SAIT School for Advanced Digital Technology.</h4>
+          <h5>Sept. 2023 - Present</h5>
+          <p>Studying in the Software Development program at the SAIT School for Advanced Digital Technology.</p>
+        </section>
+        <section className='resume-section'>
           <h2>Projects</h2>
           <ul>
               <li>Several web projects utilizing HTML, CSS, and vanilla JavaScript</li>
           </ul>
-          <a href="https://joshlarue.github.io" target='_blank'>Link to my site of personal projects</a>
+          <a href="https://joshlarue.github.io" target='_blank'>My personal projects</a>
+        </section>
+        <section className='resume-section'>
           <h2>Hobbies</h2>
           <ul>
-              <li>Music production</li>
-              <li>Web development for friends and family</li>
-              <li>Reading and writing</li>
-            </ul>
-
-            <h2>Career Goals</h2>
-            <p>I would love to work as a freelance web developer in the future. Working closely with clients
-                and being able to devote my entire time to their project's success is a goal of mine.
-            </p>
+            <li>Music production</li>
+            <li>Web development for friends and family</li>
+            <li>Reading and writing</li>
+          </ul>
+        </section>
+        <section className='resume-section'>
+          <h2>Career Goals</h2>
+          <p>I would love to work as a freelance web developer in the future. Working closely with clients
+              and being able to devote my entire time to their project's success is a goal of mine.
+          </p>
           </section>
       </main>
     </div>
