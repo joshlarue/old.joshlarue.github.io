@@ -21,10 +21,12 @@ function Resume() {
         </section>
         <section className='resume-section'>
           <h2>Projects</h2>
+          <a href="https://joshlarue.github.io" target='_blank'>My personal projects</a>
           <ul>
               <li>Several web projects utilizing HTML, CSS, and vanilla JavaScript</li>
+              <li>SAIT CourSearch (placed third in a SAIT-run hackathon)</li>
+              <li>Nextcloud home server</li>
           </ul>
-          <a href="https://joshlarue.github.io" target='_blank'>My personal projects</a>
         </section>
         <section className='resume-section'>
           <h2>Hobbies</h2>
