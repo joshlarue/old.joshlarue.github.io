@@ -158,7 +158,7 @@ a:hover {
 
 .app-inner {
   background-color: var(--base);
-  background-image: url('layered-steps.svg');
+  background-image: url('/public/layered-steps.svg');
   background-position: 150%;
   background-repeat: no-repeat;
   color: var(--text);
