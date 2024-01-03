@@ -158,15 +158,18 @@ a:hover {
 
 .app-inner {
   background-color: var(--base);
-  background-image: url('/public/layered-steps.svg');
-  background-position: 150%;
-  background-repeat: no-repeat;
   color: var(--text);
   display: flex;
   width: calc(100vw - 2rem);
   min-height: calc(100vh - 2rem);
   margin: 1rem;
   border-radius: 0.5rem;
+}
+
+.app-inner {
+  background-image: url('/public/layered-steps.svg');
+  background-position: right;
+  background-repeat: repeat-y;
 }
 
 .icon-grid {
