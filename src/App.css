@@ -164,12 +164,7 @@ a:hover {
   min-height: calc(100vh - 2rem);
   margin: 1rem;
   border-radius: 0.5rem;
-}
-
-.app-inner {
-  background-image: url('/public/layered-steps.svg');
-  background-position: right;
-  background-repeat: repeat-y;
+  background: url('/public/layered-steps.svg') right no-repeat, radial-gradient(circle 75rem, #3d0e62, #141E46) left top;
 }
 
 .icon-grid {
