@@ -25,7 +25,7 @@ function GridIcon(props) {
     <div className="icon" onMouseOver={() => props.handleHover(props.desc)} onMouseLeave={() => props.handleHover("website")}>
       <>{link}</>
       <div className="icon-img" ><img src={props.img} /></div>
-      <div className="icon-desc"><p>{props.desc}</p></div>
+      <div className="icon-desc"><h3>{props.desc}</h3></div>
     </div>
   )
 }
