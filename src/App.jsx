@@ -5,7 +5,7 @@ import WideIcons from './components/WideIcons';
 import ThinIcons from './components/ThinIcons';
 import Resume from './components/Resume';
 import Blog from './components/Blog';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Redirect } from "react-router-dom";
 
 function App() {
   let iconGridThin = false;
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path='/react-portfolio/' element={<> <WideIcons handleHover={handleHover} /> <Home currentHover={currentHover}/></>} />
             <Route path='/react-portfolio/resume/' element={<> <ThinIcons handleHover={handleHover} /> <Resume /> </>} />
-            <Route path='/react-portfolio/blog/' element={<> <ThinIcons handleHover={handleHover} /> <Blog /> </>} />
+            <Route path='/react-portfolio/blog/' component={() => { window.location.href = 'https://joshlarue.github.io/blog'; return null;}} />
             <Route path='/react-portfolio/proj1/' element={<> <ThinIcons handleHover={handleHover} /> </>} />
             <Route path='/react-portfolio/proj2/' element={<> <ThinIcons handleHover={handleHover} /> </>} />
             <Route path='/react-portfolio/proj3/' element={<> <ThinIcons handleHover={handleHover} /> </>} />
