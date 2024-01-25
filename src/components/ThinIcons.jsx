@@ -11,7 +11,7 @@ function ThinIcons(props) {
       <GridIcon img='/project.png' desc='proj2' handleHover={props.handleHover} />
       <GridIcon img='/project.png' desc='proj3' handleHover={props.handleHover} />
       <GridIcon img='/project.png' desc='proj4' handleHover={props.handleHover} />
-      <GridIcon img='/blog.png' desc='blog' handleHover={props.handleHover} />
+      <GridIcon img='/blog.png' desc='blog' handleHover={props.handleHover}><a href='/blog'></a></GridIcon>
     </div>
   );
 }
