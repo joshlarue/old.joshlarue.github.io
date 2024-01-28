@@ -18,6 +18,8 @@ function GridIcon(props) {
     link = <a href="/blog"><span className='icon-link' /></a>
   } else if (props.desc == 'home') {
     link = <Link to="/"><span className='icon-link'/></Link>
+  } else if (props.desc == 'github') {
+    link = <a href={"https://github.com/joshlarue"}><span className="icon-link" /></a>
   } else {
     link = <a href={`/old-site/pages/${props.desc}`}><span className='icon-link' /></a>
   }
@@ -25,7 +27,7 @@ function GridIcon(props) {
     <div className="icon" onMouseOver={() => props.handleHover(props.desc)} onMouseLeave={() => props.handleHover("website")}>
       <>{link}</>
       <div className="icon-img" ><img src={props.img} /></div>
-      <div className="icon-desc"><h3>{props.desc}</h3></div>
+      <div className="icon-desc"><p>{props.desc}</p></div>
     </div>
   )
 }
